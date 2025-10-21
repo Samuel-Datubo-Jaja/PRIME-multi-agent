@@ -1,0 +1,55 @@
+# Environment variables (NEVER commit secrets!)
+.env
+.env.local
+.env.*.local
+**/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.uv/
+**/uv.lock
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+**/.DS_Store
+
+# AWS
+*.pem
+*.key
+credentials
+
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/.terraform.lock.hcl
+
+# Logs
+*.log
+
+# Testing
+test_payload.json
+.pytest_cache/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Node (for frontend)
+node_modules/
+.next/
+out/
+/build
