@@ -53,3 +53,12 @@ node_modules/
 .next/
 out/
 /build
+
+# Terraform (additional)
+**/.terraform/
+**/terraform.tfstate*
+**/*.tfstate
+**/*.tfstate.backup
+
+# Local data files
+vectorize_me.json
